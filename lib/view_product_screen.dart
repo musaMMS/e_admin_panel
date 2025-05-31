@@ -33,13 +33,13 @@ class _ViewProductsScreenState extends State<ViewProductsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Product List')),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          await Navigator.push(context, MaterialPageRoute(builder: (_) => const AddProductScreen()));
-          _loadProducts();
-        },
-        child: const Icon(Icons.add),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () async {
+      //     await Navigator.push(context, MaterialPageRoute(builder: (_) => const AddProductScreen()));
+      //     _loadProducts();
+      //   },
+      //   child: const Icon(Icons.add),
+      // ),
       body: _products.isEmpty
           ? const Center(child: Text('No Products'))
           : ListView.builder(

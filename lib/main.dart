@@ -1,6 +1,4 @@
-import 'package:e_admin_panel/Widget/AppColors.dart';
 import 'package:e_admin_panel/Widget/AppTheme.dart';
-import 'package:e_admin_panel/view_product_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
